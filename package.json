@@ -1,0 +1,23 @@
+{
+  "name": "WHATSAPP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.16",
+    "qrcode": "^1.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.5.1",
+    "whatsapp-web.js": "^1.16.6"
+  }
+}
